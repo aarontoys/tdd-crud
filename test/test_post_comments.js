@@ -100,7 +100,7 @@ describe('Post Comments CRUD Routes', function() {
           })
         })
     });
-    xit('should DELETE a post comment to /posts/:post_id/comments/:id/delete', function(done) {
+    xit('should DELETE a post comment to /posts/:post_id/comments/:id', function(done) {
       chai.request(server)
         .get('/posts').end(function (err, res) {
           var thePost = res.body.SUCCESS[1];
