@@ -1,5 +1,3 @@
-# READ THE README ------ THAT'S WHY IT'S CALLED A "README"
-
 ## OVERVIEW
 
 __You have 3 hours to complete this assessment__
@@ -21,7 +19,7 @@ nodemon
 ## Run Tests
 
 ```sh
-mocha
+npm test
 ```
 
 Work through your tests in this order:
@@ -66,9 +64,3 @@ body
 * `index.js`
 * `posts.js`
 * `comments.js`
-
-## SUBMIT A PULL REQUEST WITH YOUR HEROKU LINK
-
-After passing all tests, deploy the app to Heroku and use migrations to create your production schema.
-
-Add the url to your deployed site to this readme and submit a pull request.
